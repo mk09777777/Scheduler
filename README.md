@@ -1,50 +1,64 @@
 # Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# A React Native calendar-based delivery tracking app that allows users to:
 
-## Get started
+View daily delivery statuses (delivered, missed, paused)
 
-1. Install dependencies
+Request deliveries
 
-   ```bash
-   npm install
-   ```
+Pause deliveries
 
-2. Start the app
+Track monthly summaries
 
-   ```bash
-    npx expo start
-   ```
+ #  How to Run the App
+1. Using Expo (Recommended)
+Make sure you have Node.js, Expo CLI, and npm/yarn installed.
 
-In the output, you'll find options to open the app in a
+Install Dependencies
+bash
+Copy
+Edit
+npm install
+# or
+yarn
+Start the App
+bash
+Copy
+Edit
+npx expo start
+Then scan the QR code with your Expo Go app on Android/iOS, or run it in an emulator.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+# Features Implemented
+1. Calendar View – Browse dates by month with horizontal date scrolling.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+2. Delivery Status – View status per day (delivered, missed, paused, requested).
 
-## Get a fresh project
+3. Pull-to-Refresh – Refresh data to see updates.
 
-When you're ready, run:
+4. Request Delivery – Input and confirm delivery quantity per date.
 
-```bash
-npm run reset-project
-```
+5. Pause Delivery – Option to pause future deliveries.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+6. Monthly Summary – Total delivered, missed, and paused count displayed visually.
 
-## Learn more
+# Screenshots / Recordings
+ 1. Working Video:
+    
 
-To learn more about developing your project with Expo, look at the following resources:
+https://github.com/user-attachments/assets/30a0987f-67ac-4ed9-a92f-b921be4a4345
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+2. screen shots:
+   ![s1](https://github.com/user-attachments/assets/89aba11c-32ef-48b7-a9ba-20e72a71b907)
+![s2](https://github.com/user-attachments/assets/ff6e24cc-15d4-4ad5-adbb-695176bb6241)
+![s3](https://github.com/user-attachments/assets/4e3fafb9-451d-4a33-bb1b-0a2c2a8acfa0)
+![s4](https://github.com/user-attachments/assets/527a3c78-0f39-4747-900e-1385e3ad73bc)
 
-## Join the community
 
-Join our community of developers creating universal apps.
+ # Developed With
+React Native
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Expo
+
+React Native Vector Icons
+
+
